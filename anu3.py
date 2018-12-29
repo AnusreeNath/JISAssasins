@@ -1,8 +1,6 @@
-#question no 18.by anusree nath
-print("result")
-x=int(input("1st number"))
-y=int(input("2nd number"))
-p=1
-for i in range (y):
-    p *= x
-    print(p)
+#question no 7.by anusree nath
+x=input("enter the number")
+sum=0
+for i in range(len(x)):
+    sum+=int(x[i])
+print (sum)
